@@ -40,7 +40,7 @@ def go_to_sap():
 
 if __name__ == '__main__':
     open_page('https://myupes.upes.ac.in/Login')
-    login(UserID='500082940@stu.upes.ac.in', password='WeJ5TW5G@1')
+    login(UserID='*****', password='******')
     time.sleep(3)
     go_to_sap()
     time.sleep(200)
