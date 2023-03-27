@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virass</title>
+  </head>
+  <body>
+    <h1>How can i help you</h1>
+    <form method="POST" action="/">
+      <label for="transcription">Transcription:</label>
+      <br>
+      <textarea id="transcription" name="transcription" rows="10" cols="50"></textarea>
+      <br>
+      <button type="submit">Record and Transcribe</button>
+    </form>
+    <br>
+    <h2>Output:</h2>
+    <div id="output">
+        {{ text }}
+    </div>
+  </body>
+</html>
